@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "这是徐代龙进行的第二篇文章"
-categories: SnakeSon
-tags:  hexo JavaScript
-author: SnakeSon
+title:  "CContentAssistProcessor字节码文件分析"
+categories: java&jvm
+tags:  java jvm Byte-code
+author: GuoZhongXia
 ---
 
 * content
