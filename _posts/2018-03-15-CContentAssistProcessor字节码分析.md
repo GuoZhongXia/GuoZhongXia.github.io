@@ -652,11 +652,11 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 ## [2.1]()1、属性表
 
-2.10.1、接下来的2个字节(index: 0x2DAF)attributes_count= 2，表示最后有2个属性。
+2.11.1、接下来的2个字节(index: 0x2DAF)attributes_count= 2，表示最后有2个属性。
 
 ![img](/css/clip_image099.png)
 
-2.10.2、分析第1个属性
+2.11.2、分析第1个属性
 
 ①、在索引0x2DB1的2个字节 (0x0166=358["SourceFile"]),说明后面是一个SourceFile属性
 
@@ -666,7 +666,7 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 ③、跟随其后索引0x2DB7的2个字节(0x015F=351["CContentAssistProcessor.java"]),是SourceFile文件名的字符串常量索引。 
 
-2.10.3、分析第2个属性
+2.11.3、分析第2个属性
 
 ④、在索引0x2DB9的2个字节 (0x0161=353["InnerClasses"]),说明后面是一个InnerClasses属性
 
