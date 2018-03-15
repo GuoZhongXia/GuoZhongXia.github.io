@@ -59,7 +59,7 @@ E、Java虚拟机字节码指令
 
 ## [2.1]()、Class字节码文件格式
 
-![img](file:///C:\Users\GUOXUE~1\AppData\Local\Temp\msohtmlclip1\01\clip_image002.jpg)
+![img](file:///css/clip_image001.jpg)
 
 2.1.1、最开始的4个字节是Class文件的魔数(magic)标识0XCAFEBABE。
 
