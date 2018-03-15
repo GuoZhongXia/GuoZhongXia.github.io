@@ -80,7 +80,7 @@ E、Java虚拟机字节码指令
 
 ![img](/css/clip_image007.png)
 
-![img](/css/clip_image09.png)
+![img](/css/clip_image009.png)
 
 ![img](/css/clip_image011.png)
 
@@ -654,13 +654,13 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 2.10.1、接下来的2个字节(index: 0x2DAF)attributes_count= 2，表示最后有2个属性。
 
-![img](/css/clip_image99.png)
+![img](/css/clip_image099.png)
 
 2.10.2、分析第1个属性
 
 ①、在索引0x2DB1的2个字节 (0x0166=358["SourceFile"]),说明后面是一个SourceFile属性
 
-![img](/js/clip_image101.png)
+![img](/page/clip_image101.png)
 
 ②、接下来在索引0x2DB3的4个字节(0x2=2), 是SourceFile属性后面字节的长度。
 
@@ -670,11 +670,11 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 ④、在索引0x2DB9的2个字节 (0x0161=353["InnerClasses"]),说明后面是一个InnerClasses属性
 
-![img](/js/clip_image103.png)
+![img](/page/clip_image103.png)
 
-![img](/js/clip_image105.png)
+![img](/page/clip_image105.png)
 
-![img](/js/clip_image107.png)
+![img](/page/clip_image107.png)
 
 ​    内部类属性中，inner_class_info_index与outer_class_info_index都是指向常量池中CONSTANT_Class_info型常量的索引，分别代表了内部类和宿主类的符号引用。
 
@@ -690,11 +690,11 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 ​    inner_class_info_index：0xAA=170:
 
-![img](/js/clip_image109.png)
+![img](/page/clip_image109.png)
 
 ​       outer_class_info_index：0xA9=169:
 
-![img](/js/clip_image111.png)
+![img](/page/clip_image111.png)
 
 ​       inner_name_index:    0x 015D = 349["ActivationSet"]
 
@@ -710,11 +710,11 @@ protected booleanverifyAutoActivation(ITextViewer viewer, int offset)
 
 inner_class_info_index：0xAB=171:
 
-![img](/js/clip_image113.png)
+![img](/page/clip_image113.png)
 
 ​       outer_class_info_index：0xA9=169:
 
-![img](/js/clip_image115.jpg)
+![img](/page/clip_image115.jpg)
 
 ​       inner_name_index:    0x 015E = 350["CCompletionProposalWrapper"]
 
