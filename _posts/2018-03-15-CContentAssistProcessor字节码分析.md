@@ -14,9 +14,11 @@ author: GuoZhongXia
 
 ​        1.1.1、JVM是Java Virtual Machine（Java虚拟机）的缩写。Java语言使用Java虚拟机屏蔽了与具体平台相关的信息，使得Java语言编译程序只需生成在Java虚拟机上运行的目标代码（字节码），就可以在多种平台上不加修改地运行。Java虚拟机在执行字节码时，把字节码解释成具体平台上的机器指令执行。这就是Java的能够“一次编译，到处运行”的原因。
 
-​       (本段摘录自百度百科https://baike.baidu.com/item/JVM/2902369?fr=aladdin)
+​       (本段摘录自百度百科https://baike.baidu.com/item/JVM/2902369?fr=aladdin)
 
  
+
+
 
 ​         1.1.2、JVM及java字节码的相关技术参考了以下文档：
 
