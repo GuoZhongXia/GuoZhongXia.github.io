@@ -42,7 +42,7 @@ author: GuoZhongXia
 
  
 
-1.2.4、Eclipse CDT的 C&C++编辑器中只有在键入"."、"->"及"::"时才出自动弹出提示：
+1.2.4、Eclipse CDT的 C&C++编辑器中只有在键入"."、"->"及"::"时才会自动弹出提示：
 
 ![img](/js/clip_image007.png)
 
