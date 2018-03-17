@@ -211,3 +211,19 @@ B、在CContentAssistProcessor.java的文件中，修改verifyAutoActivation方�
 如没有意外，即可以达到1.3节所看到的“修改字节码要达到的目标”。
 
  
+
+
+
+
+附件
+
+修改前的资源：
+[Eclipse_CDT_修改前.zip](/page/Eclipse_CDT_修改前.zip)
+[org.eclipse.cdt.ui.source_6.2.0.201710130142.jar](/page/org.eclipse.cdt.ui.source_6.2.0.201710130142_修改前.jar)[org.eclipse.cdt.ui_6.2.0.201710130142_修改前.jar](/page/org.eclipse.cdt.ui_6.2.0.201710130142_修改前.jar)
+
+修改字节码文件时所用到的代码文件
+[Test.java](/page/Test.java)
+
+修改后的资源
+[Eclipse_CDT_修改后.zip](/page/Eclipse_CDT_修改后.zip)
+[org.eclipse.cdt.ui_6.2.0.201710130142_修改后.jar](/page/org.eclipse.cdt.ui_6.2.0.201710130142_修改后.jar)
