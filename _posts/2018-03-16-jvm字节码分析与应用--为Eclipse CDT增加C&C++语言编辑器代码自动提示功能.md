@@ -36,6 +36,8 @@ author: GuoZhongXia
 
 1.2.3、但在Eclipse CDTC&C++编辑器中，没有提供代码自动提示的功能，只有按了快捷键[alt+(shift+)/]，才弹出提示。
 
+注：Eclipse版本为Neon.3 Release (4.6.3)；CDT版本为:9.3.3.201710130142
+
 其代码提示的设置如下：Window菜单--Preferences--C/C++--Editor--ContentAssist--Auto Activation。
 
 ![img](/js/clip_image005.png)
@@ -229,13 +231,14 @@ B、在CContentAssistProcessor.java的文件中，修改verifyAutoActivation方�
 
 
 
-修改字节码文件时所用到的代码文件
+修改字节码文件时所用到的代码文件:
 
 [Test.java](/page/Test.java)
 
 
 
-修改后的资源
+修改后的资源:
+
 [Eclipse_CDT_修改后.zip](/page/Eclipse_CDT_修改后.zip)
 
 [org.eclipse.cdt.ui_6.2.0.201710130142_修改后.jar](/page/org.eclipse.cdt.ui_6.2.0.201710130142_修改后.jar)
